@@ -1,25 +1,47 @@
-# Job Crafter
+# JobCrafter™
 
-<img src="static/hero.png" width="1024" />
+_Orchestrating Achievement, One Role at a Time_
 
-JobCrafter is a comprehensive automated software system designed to revolutionize the way businesses generate job descriptions. Using generative AI technology, the system transforms basic job descriptions into complete, thorough, and detailed professional outlines.
+<img src="static/hero.png" width="704" />
 
-The software receives an initial input in the form basic job description and performs several tasks:
+## Overview
 
-1. Suggest a fitting job title for the new role.
-2. Create a comprehensive Job Description, ensuring the role is primed for success.
-3. Define Goals and Objectives for this role.
-4. Set out clear Priorities for the role.
-5. Identify the necessary Skills and Competencies needed.
-6. Design the Performance Standards for the role.
+Synthesizing the strategic objectives of VisionCrafter and the skill alignment of ExpertCrafter, JobCrafter emerges as a key module in project management, translating strategic planning into operational tasks. It demystifies roles and responsibilities, providing clarity and specificity of purpose to each team member through articulate job descriptions.
 
-JobCrafter's innovative approach ensures a unified, structured, and detailed framework for job roles, setting them up for success right from the start. It melds human resource principles with AI efficiency, crafting intricate job descriptions with remarkable precision. This creates a valuable resource for recruitment and performance management.
+### Transforming Roles into Reality: Detailed Job Descriptions
 
-## Running the app
+JobCrafter starts its operation by dissecting each role defined by ExpertCrafter, understanding the depths of their responsibilities within the project's overall framework. The AI crafts comprehensive job descriptions that clearly express what the role entails, setting objectives, arranging priority tasks, identifying necessary skills, and establishing performance standards. The job descriptions also serve as a documented contract of expectations, fostering accountability, and dedication amongst team members.
+
+### Empowering Productivity: Precision Fuels Performance
+
+Detail-oriented clarity is an inherent feature of JobCrafter, making it a valuable tool for improving performance and productivity within a project. Each role is presented with a meticulously tailored bundle of tasks to accomplish, grounded on their specific skill sets, thereby ensuring the person best-suited to the task is the one performing it. This optimization guarantees an uptick in efficiency, accelerating the project towards successful completion.
+
+### Serving as Navigator: Guiding Role Transition and Progress
+
+JobCrafter is also designed to adapt to the dynamic nature of projects. As tasks progress, and roles evolve, JobCrafter smoothly transitions team members into their next set of responsibilities. By continuously adjusting the roles and tasks, JobCrafter ensures that the project keeps moving forward despite potential uncertainties, while maintaining team members' engagement and motivation.
+
+### Summary
+
+JobCrafter bridges the gap between project planning and execution, ensuring seamless flow and superb alignment. With its focus on clarity, specificity, and adaptability, this module plays an instrumental part in keeping the project and its team members on a clear, efficient, and effective path towards project completion.
+
+## Setup
+
+### Configuration
+
+Create a copy of `.env.template` named `.env` and fill in the required values (e.g., `OPENAI_API_KEY`).
+
+### Dependencies
 
 Create and activate a fresh Python virtual environment, then run:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Running
+
+Start the [streamlit](https://streamlit.io/) auto-reload server:
+
+```bash
 streamlit run app.py
 ```
