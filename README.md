@@ -1,6 +1,6 @@
 # Job Crafter
 
-<img src="static/job-crafter.png" width="1024" />
+<img src="static/hero.png" width="1024" />
 
 JobCrafter is a comprehensive automated software system designed to revolutionize the way businesses generate job descriptions. Using generative AI technology, the system transforms basic job descriptions into complete, thorough, and detailed professional outlines.
 

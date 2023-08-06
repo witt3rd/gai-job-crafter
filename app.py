@@ -98,7 +98,7 @@ with open("style.css") as f:
 st.markdown(
     """
 <div class="header-container">
-  <img src="./app/static/job-crafter.png" alt="Job Crafter" class="header-image">
+  <img src="./app/static/hero.png" alt="Job Crafter" class="header-image">
   <div class="header-text">
     <h2>Job Crafter</h2>
     <p>Sculpting Success, One Job Description at a Time</p>
