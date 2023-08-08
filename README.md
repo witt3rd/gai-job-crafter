@@ -4,6 +4,8 @@ _Orchestrating Achievement, One Role at a Time_
 
 <img src="static/hero.png" width="704" />
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 ## Overview
 
 Synthesizing the strategic objectives of VisionCrafter and the skill alignment of ExpertCrafter, JobCrafter emerges as a key module in project management, translating strategic planning into operational tasks. It demystifies roles and responsibilities, providing clarity and specificity of purpose to each team member through articulate job descriptions.
@@ -45,3 +47,14 @@ Start the [streamlit](https://streamlit.io/) auto-reload server:
 ```bash
 streamlit run app.py
 ```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
